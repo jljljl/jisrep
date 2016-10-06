@@ -1,10 +1,9 @@
 /*
  * Pin.h
  *
- *  Created on: 5 окт. 2016 г.
+ *  Created on: 5 пїЅпїЅпїЅ. 2016 пїЅ.
  *      Author: director
  */
-#include <stdint.h>
 #ifndef SRC_PIN_H_
 #define SRC_PIN_H_
 

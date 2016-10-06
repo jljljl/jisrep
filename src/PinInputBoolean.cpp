@@ -1,18 +1,19 @@
 /*
  * PinInputBoolean.cpp
  *
- *  Created on: 5 окт. 2016 г.
+ *  Created on: 5 пїЅпїЅпїЅ. 2016 пїЅ.
  *      Author: director
  */
 
 #include "PinInputBoolean.h"
 
-PinInputBoolean::PinInputBoolean() {
-	// TODO Auto-generated constructor stub
 
-}
 
 PinInputBoolean::~PinInputBoolean() {
 	// TODO Auto-generated destructor stub
 }
 
+PinInputBoolean:: uint16_t getValue()
+{
+	uint16_t gpio_get(uint32_t port, uint16_t n);
+}

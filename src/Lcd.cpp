@@ -75,7 +75,7 @@ void Lcd::LCD_String(char* st)
 	}
 }
 //------------------------------------------------
-void Lcd::Lcd::LCD_SetPos(uint8_t x, uint8_t y)
+void Lcd::moveto(uint8_t x, uint8_t y)
 {
 	switch(y)
 	{
@@ -133,7 +133,7 @@ void Lcd::LCD_ini(void)
 
 }
 
-void LCD_print(String s)
+void print(String s)
 {
 	uint32_t i=2;
 	char str[50];

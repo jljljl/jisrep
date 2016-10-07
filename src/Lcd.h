@@ -71,8 +71,8 @@ public:
 	void LCD_Clear(void);
 	void LCD_SendChar(char ch);
 	void LCD_String(char* st);
-	void LCD_SetPos(uint8_t x, uint8_t y);
-	void LCD_print(char array);
+	void print(char array);
+	void moveto(uint8_t x, uint8_t y);
 
 
 	virtual ~Lcd();

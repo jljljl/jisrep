@@ -98,7 +98,7 @@ void Lcd::moveto(uint8_t x, uint8_t y)
 	}
 }
 //------------------------------------------------
-void Lcd::LCD_ini(void)
+void Lcd::start(void)
 {
 	HAL_Delay(40);
 	rs0;

@@ -67,7 +67,7 @@ public:
 	bool fullMode;
 
 	void delay();
-	void LCD_ini(void);
+	void start(void);
 	void LCD_Clear(void);
 	void LCD_SendChar(char ch);
 	void LCD_String(char* st);

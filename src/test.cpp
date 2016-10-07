@@ -210,7 +210,7 @@ void setup()
 
 	  /* USER CODE BEGIN 2 */
 	  lcd = new Lcd();
-	  lcd::LCD_ini();
+	  lcd::start();
 }
 
 void loop()
